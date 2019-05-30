@@ -1,0 +1,1 @@
+addSbtPlugin("com.swat" % "scala-archetype" % "1.0.0-SNAPSHOT")

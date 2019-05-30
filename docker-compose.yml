@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  kafka-zookeper:
+    image: johnnypark/kafka-zookeeper
+    ports:
+      - "2181:2181"
+      - "9092:9092"
+    environment:
+      ADVERTISED_HOST: 'localhost'
